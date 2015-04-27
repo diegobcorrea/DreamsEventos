@@ -68,6 +68,9 @@ a.more {
 	position: absolute;
 	width: 100%;
 }
+div.center {
+	text-align: center;
+}
 
 /* START CSS */
 
@@ -325,6 +328,9 @@ header {
 			height: 38px;
 			line-height: 2.4em;
 		}
+		.field.textarea {
+			height: 200px;
+		}
 		.field textarea {
 			border: 1px solid rgba(112, 41, 119, 1);
 			border-radius: 6px;
@@ -333,12 +339,27 @@ header {
 			padding: 1em;
 		}
 
+		input#sendContact {
+			background-color: rgba(112, 41, 119, .4);
+			border-radius: 6px;
+			border: 1px solid rgba(112, 41, 119, 1);
+			color: #FFFFFF;
+			font-size: 20px;
+			height: 50px;
+			line-height: 2.5em;
+			text-transform: uppercase;
+		}
+			input#sendContact:hover {
+				background-color: rgba(112, 41, 119, .75);
+			}
+
 footer {
 	color: #fff;
 }
 	footer .info {
 		background-color: rgba(112, 41, 119, .2);
 		height: 120px;
+		width: 100%
 	}
 		.data {
 			margin: 1.78em 0;
@@ -348,10 +369,17 @@ footer {
 				font-family: 'GothamBook';
 				font-size: 12px;
 			}
-				.data .icons span {
+				.data .icons span.icon {
 					color: rgba(112, 41, 119, .5);
 					display: inline-block;
 					margin: .4em 0;
+					vertical-align: top;
+				}
+				.data .icons span.text {
+					width: 80%;
+				}
+				.data .icons span {
+					display: inline-block;
 				}
 
 	footer .follow {
