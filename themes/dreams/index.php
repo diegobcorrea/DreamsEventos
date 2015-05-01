@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	
 	<section class="row">
-
+		<?php if(!wp_is_mobile()): ?>
 		<div class="slideshow large-12 columns">
 			<div class="wrapper">
 			<?php 
@@ -30,6 +30,7 @@
 			<div class="prev" id="item_prev"></div>
 			<div class="next" id="item_next"></div>
 		</div>
+		<?php endif; ?>
 
 		<div class="services-home">
 			<h2>Servicios</h2>

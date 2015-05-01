@@ -63,7 +63,7 @@ function send_contactemail_callback() {
 
     $results = '';
 
-    $to = 'contacto@dreamseventos.pe';
+    $to = 'dreams.eventos.catering@gmail.com';
 
     $subject = $_POST['subject'];
 

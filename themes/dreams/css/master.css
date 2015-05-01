@@ -367,7 +367,7 @@ footer {
 			.data .icons {
 				color: #000;
 				font-family: 'GothamBook';
-				font-size: 12px;
+				font-size: 14px;
 			}
 				.data .icons span.icon {
 					color: rgba(112, 41, 119, .5);
@@ -417,4 +417,29 @@ footer {
 	right: -12px !important;
 	top: 10px !important;
 	width: 40px !important;
+}
+
+@media only screen {
+	.servicesBox {
+		margin-bottom: 1em;
+	}
+	footer .info {
+		height: 245px;
+	}
+	footer .follow {
+		margin: .6em 0;
+		text-align: center;
+	}
+
+	.service-image, .service-image img {
+		width: 100%;
+	}
+	.service-data {
+		margin-bottom: 1em;
+		width: 90%;
+	}
+
+	.item-event .inner-box {
+		min-height: 290px;
+	}
 }
